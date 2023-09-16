@@ -42,7 +42,7 @@ img{
 
 /* ~------------------------------------header-------------------------------------------- */
 
-@media screen and (max-width: 1920px){
+/* @media screen and (max-width: 1920px){ */
 
 .header{
     padding-top: 51.5px;
@@ -500,7 +500,7 @@ img{
 .foutrh-first-unit{
     display: flex;
     gap: 68px;
-    margin-left: 360.9px;
+    justify-content: center;
 }
 
 .foutrh-unit-list{
@@ -564,9 +564,12 @@ img{
     height: 180px;
     display: block;
     position: absolute;
-    left: 871px;
-    bottom: 698px;
+    top: 891px;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+
 
 
 /* ~------------------------------------5-------------------------------------------- */
