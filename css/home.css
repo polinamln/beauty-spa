@@ -226,7 +226,8 @@ img{
 
 .first-background{
     position: absolute;
-    left: 1020px;
+    /* left: 1020px; */
+    right: 0;
     width: 900px;
     height: 925px;
     flex-shrink: 0;
@@ -235,7 +236,8 @@ img{
 .first-textur{
     position: absolute;
     opacity: 0.15;
-    left: 1020px;
+    right: 0;
+    /* left: 1020px; */
     width: 900px;
     height: 925px;;
     flex-shrink: 0;
